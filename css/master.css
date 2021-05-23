@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap');
+
+body{
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Style For Section 1 */
+
+.navbar ul li{
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+  font-size: 18px;
+}
+
+.navbar-item:hover{
+  border-radius: 4px;
+  color: white;
+  background-color: #0000000a;
+}
+
+.container-fluid{
+  background-color: #FF4C68;
+  text-align: center;
+}
+
+.container-fluid .btn{
+  margin: 10px;
+}
+
+#title {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#title i{
+  margin-right: 10px;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.info{
+  margin-top: 8%;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.info h1{
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 70px;
+}
+
+.info-image{
+  margin-top: 8%;
+}
+
+.info-image img{
+  width: 60%;
+  max-width: 250px;
+  transform: rotate(25deg);
+  transition: 0.31s;
+}
+
+@media (max-width: 1028px){
+ .info-image img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  .info{
+    text-align: center;
+    line-height: 1;
+  }
+}
+
+/* Style For Section 2 */
+.feature{
+}
+
+.feature .container{
+  padding: 10% 3%;
+  text-align: center;
+  color: #212529;
+}
+.feature i{
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 30px 57px;
+}
+
+.feature i:hover{
+  color: #ff4c68;
+}
+
+/* section 3 - testimonials */
+
+.testimonials{
+  background-color: #EF8172;
+}
+
+
+/* section 4 pricing */
+
+.pricing{
+  text-align: center;
+  border: 1px solid #007bff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pricing-cards{
+  padding: 20px;
+  max-width: 1056px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.Pricing-card .card{
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+/* section 5 */
+
+.cta{
+  text-align: center;
+  background-color: #FF4C68;
+  color: white;
+}
+
+.cta-content{
+  padding: 80px;
+}
+
+.cta-content h1{
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.cta .btn{
+  margin: 15px;
+}
+
+/* Footer section style */
+
+.section-footer{
+  text-align: center;
+  padding: 50px;
+}
+
+.section-footer i{
+  margin: 5px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
