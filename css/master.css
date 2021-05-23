@@ -138,6 +138,16 @@ body{
   max-width: 300px;
 }
 
+.btn-signup {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.btn-signup:hover {
+    background-color: #f71c3d;
+    color: white;
+}
+
 /* section 5 */
 
 .cta{
@@ -154,7 +164,7 @@ body{
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
+  max-width: 600px;
 }
 
 .cta .btn{
