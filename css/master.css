@@ -113,16 +113,54 @@ body{
 
 .testimonials{
   background-color: #EF8172;
+  color: white;
+  text-align: center;
+  padding: 30px auto;
 }
 
+.testimonials-content{
+  max-width: 70%;
+  margin: 50px auto;
+}
 
+.testimonials-content h2{
+  line-height: 50px;
+  font-weight: bolder;
+}
+
+.testimonials-user{
+  font-weight: normal;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.testimonials-user img{
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.press{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.press img{
+  width: 20%;
+  padding: 50px 20px 50px 20px;
+}
 /* section 4 pricing */
 
 .pricing{
   text-align: center;
-  border: 1px solid #007bff;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: 50px auto;
+}
+
+.pricing h1{
+  font-weight: bolder;
 }
 
 .pricing-cards{
@@ -146,6 +184,16 @@ body{
 .btn-signup:hover {
     background-color: #f71c3d;
     color: white;
+}
+
+.btn-free{
+  color: #FF4C68;
+  border: 1px solid #FF4C68;
+}
+
+.btn-free:hover{
+  background-color: #FF4C68;
+  color: white;
 }
 
 /* section 5 */
