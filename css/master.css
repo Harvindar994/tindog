@@ -32,7 +32,7 @@ body{
 
 #title {
   padding: 40px;
-  max-width: 1000px;
+  max-width: 1115px;
   margin: auto;
 }
 
@@ -48,8 +48,7 @@ body{
 .info{
   margin-top: 8%;
   text-align: left;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 8%;
 }
 
 .info h1{
@@ -71,6 +70,8 @@ body{
   max-width: 250px;
   transform: rotate(25deg);
   transition: 0.31s;
+  position: absolute;
+  right: 130px;
 }
 
 @media (max-width: 1028px){
@@ -87,6 +88,9 @@ body{
 
 /* Style For Section 2 */
 .feature{
+  position: relative;
+  z-index: 1;
+  background-color: white;
 }
 
 .feature .container{
@@ -139,6 +143,7 @@ body{
   width: 10%;
   border-radius: 100%;
   margin-right: 15px;
+  max-width: 100px;
 }
 
 .press{
@@ -174,6 +179,10 @@ body{
 .Pricing-card .card{
   margin: 20px auto;
   max-width: 300px;
+}
+
+.Pricing-card h3, h2{
+  font-weight: bolder;
 }
 
 .btn-signup {
